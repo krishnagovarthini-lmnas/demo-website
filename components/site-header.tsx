@@ -16,7 +16,7 @@ export function SiteHeader() {
 
           <nav className="hidden items-center gap-6 md:flex">
             {[
-              ["PRODUCTS", "#products"],
+              ["PRODUCTS", "https://lumi.lmnaslens.com/shop-by-category"],
               ["BUSINESS SECTORS", "/"],
               ["SGB-SMIT GROUP", "/"],
               ["SUSTAINABILITY", "/"],

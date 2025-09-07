@@ -89,7 +89,14 @@ export function ContactDialog({
           </DialogDescription>
         </DialogHeader>
 
-        <form action={(fd) => onSubmit(fd)} className="grid grid-cols-1 gap-4">
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            const fd = new FormData(e.currentTarget);
+            onSubmit(fd);
+          }}
+          className="grid grid-cols-1 gap-4"
+        >
           <div className="grid gap-2">
             <div>
               <Label htmlFor="email" className="mb-1.5">

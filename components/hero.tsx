@@ -10,6 +10,8 @@ export function Hero() {
             src="/images/sgb-portfolio.jpg"
             alt="Illustrated energy landscape with transformers, power lines, and infrastructure"
             className="absolute inset-0 h-full w-full object-cover object-left"
+            width={1500}
+            height={826}
           />
         </div>
 
@@ -35,7 +37,7 @@ export function Hero() {
               them, and find a solution tailored to your individual request.{" "}
             </p>
             <a
-              href="#products"
+              href="https://lumi.lmnaslens.com/shop-by-category"
               className="inline-flex items-center justify-center rounded-md bg-orange-500 px-5 py-2.5 text-sm font-bold uppercase tracking-wide text-white shadow-sm transition-colors hover:bg-orange-600 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-orange-500 focus-visible:ring-offset-2"
               aria-label="Explore products"
             >
